@@ -3,10 +3,13 @@ import java.util.Scanner;
 public class Exercise1 {
 
     public static void main(String[] args) {
+
+        //Identificar números reales
         
         var sc = new Scanner(System.in);
 
-        System.out.println("Ingresa un número real");
+        System.out.println("Numeros reales");
+        System.out.println("Ingresa un numero");
         int num = sc.nextInt();
 
         if(num>0){
