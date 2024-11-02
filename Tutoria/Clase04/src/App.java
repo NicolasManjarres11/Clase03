@@ -1,11 +1,16 @@
+
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        int edad = 24;
+        
+        int edad = 0;
 
-        if(edad>18){
-            System.out.println("Usted es mayor de edad");
-        }
+        var sc = new Scanner(System.in);
 
-        System.out.println("Termino el programa");
-    }
+        System.out.println("Ingrese una edad valida");
+        sc.nextInt();
+    
+}
+
 }
